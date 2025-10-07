@@ -185,13 +185,13 @@ export default function Dashboard() {
               <ParameterCard 
                 label="EIB" 
                 value={meter.EIB} 
-                unit="kWh" 
+                unit="Wh" 
                 color="text-purple-600"
               />
               <ParameterCard 
                 label="EEB" 
                 value={meter.EEB} 
-                unit="kWh" 
+                unit="Wh" 
                 color="text-purple-600"
               />
             </div>
